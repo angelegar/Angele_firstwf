@@ -1,0 +1,10 @@
+name: macOS workflow
+on: workflow_dispatch
+jobs:
+  fisrt_job:
+    runs-on: macOS-latest
+    steps:
+      - name: Print macOS
+        run: echo "Hola con macOS"
+      - name: Print bye
+        run: echo "bye bye"
