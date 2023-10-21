@@ -1,0 +1,10 @@
+name: second workflow
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: windows-latest
+    steps:
+      - name: Print Prueba
+        run: echo "Esto es una prueba"
+      - name: Print bye
+        run: echo "bye bye"
